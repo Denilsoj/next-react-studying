@@ -5,16 +5,19 @@ import { useState } from "react";
 export default function NameForm() {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] =useState ('');
-    const [fullName, setFullName] = useState('');
+    // const [fullName, setFullName] = useState('');
 
+    // evitando redudancia 
+    // nunca use uma variável de estado sem necessidade 
+    const fullName = firstName + '  ' + lastName
     function handleFirstNameChange(e) {
         setFirstName(e.target.value);
-        setFullName(e.target.value + '' + lastName)
+        // setFullName(e.target.value + '' + lastName)
     }
 
     function handleLastNameChange(e){
         setLastName(e.target.value)
-        setFullName(firstName + '' + e.target.value)
+        // setFullName(firstName + '' + e.target.value)
     }
 
     return (
