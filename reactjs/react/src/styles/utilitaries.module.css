@@ -1,0 +1,134 @@
+.card {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.titleCard {
+    margin-top: 15px;
+    font-size: .7rem;
+    font-weight: bold;
+    color: #555;
+}
+
+
+.container {
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 0;
+    gap: 20px;
+  }
+
+  .form {
+    display: flex;
+    width: 100vw;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .marginBotton15{
+    margin-bottom: 15px;
+  }
+
+  .buttonSub {
+    background-color: #000;
+    padding: .8rem 1.2rem;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 300px;
+  }
+.buttonSub:hover{
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  margin-top: 28px;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input,
+.textarea {
+  width: 300px;
+  border: .5px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 7px;
+
+}
+
+.titleForm {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.buttonForm{
+  color: #fff;
+  background-color: #000;
+  padding: .7rem 1.2rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.headerForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+}
+
+.cardForm {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 500px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.organizeAction {
+  display: flex;
+  gap: 10px;
+}
+
+.actionBtn {
+  width: 145px;
+  background-color: #000;
+  padding: .8rem 1.2rem;
+  margin-top: 30px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.actionBtn:hover{
+   border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  margin-top: 28px;
+}
+
+.cheked {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.displayNone {
+  display: none;
+}

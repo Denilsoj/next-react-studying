@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "firstName": "Denilson",
+      "lastName": "Oliveira",
+      "number": "82996317730",
+      "email": "juniod02@hotmail.com",
+      "id": 0
+    },
+    {
+      "firstName": "João",
+      "lastName": "Josias",
+      "number": "82988665596",
+      "email": "jjosias@gmail.com",
+      "id": 1
+    }
+  ]
+}
