@@ -30,7 +30,7 @@ export default function Pratice() {
                     height={100}
                     alt='React'
                     />
-                    <h4 className={styles.titleCard}>Escolhendo a estrutura do estado</h4>
+                    <h4 className={styles.titleCard}>sistema de cadatro</h4>
                 </div>
                 </section>
             </Link>
