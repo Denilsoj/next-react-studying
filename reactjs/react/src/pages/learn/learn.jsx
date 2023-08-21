@@ -34,6 +34,19 @@ export default function Learn() {
                 </div>
                 </section>
             </Link>
+            <Link href='/learn/feedback-form'>
+                <section className={styles.card}>
+                <div>
+                    <Image
+                    src='/image/react.svg'
+                    width={150}
+                    height={100}
+                    alt='React'
+                    />
+                    <h4 className={styles.titleCard}>Escolhendo a estrutura do estado 2</h4>
+                </div>
+                </section>
+            </Link>
         </main>
         </Layout>
     )
